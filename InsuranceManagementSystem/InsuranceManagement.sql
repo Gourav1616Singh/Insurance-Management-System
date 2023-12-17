@@ -1,26 +1,5 @@
 Create database java;
 use  java;
-CREATE TABLE emp (name VARCHAR(255),age INT,loc VARCHAR(255),salary int);
-
-INSERT INTO emp (name, age, loc, salary) VALUES
-('Saurav', 25, 'pune', 50000),
-('Gaurav', 30, 'delhi', 60000),
-('Isha', 28, 'delhi', 55000),
-('Megha', 26, 'pune', 52000),
-('Jenni', 32, 'noida', 70000);
-
-select * from emp;
-SELECT USER();
-
-
-
-
-
-
-
-
-
-
 
 CREATE TABLE User (
     userId INT PRIMARY KEY,
